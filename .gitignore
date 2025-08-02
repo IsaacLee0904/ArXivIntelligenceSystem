@@ -27,3 +27,6 @@ override.tf.json
 
 # Lock file (if using Terraform 0.14+)
 .terraform.lock.hcl
+
+# Lambda deployment packages
+*.zip
