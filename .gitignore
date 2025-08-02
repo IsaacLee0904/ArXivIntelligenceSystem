@@ -2,3 +2,28 @@
 **.DS_Store
 logs/*
 CLAUDE.md
+
+# Terraform generated files
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan output files
+*.tfplan
+
+# .terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files (e.g., environment-specific variables)
+.env
+
+# Lock file (if using Terraform 0.14+)
+.terraform.lock.hcl
